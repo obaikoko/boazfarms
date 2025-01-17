@@ -15,10 +15,12 @@ const Footer = () => {
         <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
           <div>
             <h4 className='text-lg font-bold mb-4'>Boaz Farms</h4>
-            <p className='mb-2'>
-              Your trusted partner for clean solar energy solutions.
+            <p className='mb-2'>Organic Agriculture and Agribusiness Leaders</p>
+            <p>
+              Boaz Farms is a leading provider of organic food, sustainable
+              employment opportunities, and agribusiness solutions for the
+              African population.
             </p>
-            <p>Empowering homes and businesses with sustainable energy.</p>
           </div>
 
           {/* Quick Links */}
@@ -30,19 +32,10 @@ const Footer = () => {
                   Home
                 </Link>
               </li>
-              <li>
-                <Link href='/products' className='hover:underline'>
-                  Products
-                </Link>
-              </li>
+
               <li>
                 <Link href='/about' className='hover:underline'>
                   About Us
-                </Link>
-              </li>
-              <li>
-                <Link href='/contact' className='hover:underline'>
-                  Contact
                 </Link>
               </li>
             </ul>
@@ -51,8 +44,8 @@ const Footer = () => {
           {/* Contact Info */}
           <div>
             <h4 className='text-lg font-bold mb-4'>Contact Us</h4>
-            <p className='mb-2'>Email: support@cesoleenergy.com</p>
-            <p>Phone: (+234) 906 699 6674</p>
+            <p className='mb-2'>Email: support@boazfarms.com</p>
+            <p>Phone: (+234) 8146 797 467</p>
             <div className='flex space-x-4 mt-4'>
               <Link
                 href='#'
@@ -90,8 +83,8 @@ const Footer = () => {
       </div>
 
       {/* Bottom Copyright */}
-      <div className='text-center py-4 border-t border-gray-700 mt-6'>
-        <p>
+      <div className='text-center py-4 border-t border-gray-400 mt-6'>
+        <p className='text-gray-400'>
           &copy; {new Date().getFullYear()} Boaz Farms. All rights reserved.
         </p>
       </div>
