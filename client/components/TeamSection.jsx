@@ -3,9 +3,9 @@ import React from 'react';
 const TeamSection = () => {
   const teamMembers = [
     {
-      name: 'Boaz Ekpenyong',
+      name: 'Hon. John Eshian Ewa',
       title: 'Founder & CEO',
-      image: '/images/founder.jpg',
+      image: '/images/ceo.jpg',
     },
     {
       name: 'Grace Ekpenyong',
@@ -39,7 +39,7 @@ const TeamSection = () => {
               <img
                 src={member.image}
                 alt={member.name}
-                className='rounded-full w-24 h-24 object-cover mx-auto mb-4'
+                className='rounded-full w-[120px] h-[100] object-cover mx-auto mb-4'
               />
               <h4 className='text-lg font-semibold text-green-800'>
                 {member.name}
