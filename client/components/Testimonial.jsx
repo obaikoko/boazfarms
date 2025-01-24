@@ -3,7 +3,7 @@ import React from 'react';
 const Testimonial = () => {
   const testimonials = [
     {
-      name: 'John Doe',
+      name: 'Effiong Eyo',
       image: '/images/customer1.jpg', // Replace with your image path
       text: 'Boaz Farm provides the freshest and most delicious produce. I’ve never tasted anything better!',
     },

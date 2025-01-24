@@ -8,19 +8,19 @@ const TeamSection = () => {
       image: '/images/ceo.jpg',
     },
     {
-      name: 'Grace Ekpenyong',
+      name: 'Jonathan C. Ogbonna',
       title: 'Head of Operations',
-      image: '/images/head-operations.jpg',
+      image: '/images/operation-manager.jpg',
     },
     {
-      name: 'Daniel Okon',
-      title: 'Sustainability Expert',
-      image: '/images/sustainability-expert.jpg',
+      name: 'Dr. Amstrong-John Adebare',
+      title: 'Farm Vertinary Doctor',
+      image: '/images/vetinary-doctor.jpg',
     },
     {
-      name: 'Amara Nwosu',
-      title: 'Community Liaison',
-      image: '/images/community-liaison.jpg',
+      name: 'Mr. Igelle Felix Ugbem',
+      title: 'Marketing Manager',
+      image: '/images/marketing-manager.jpg',
     },
   ];
 

@@ -1,12 +1,13 @@
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
+import CoreOfferings from '@/components/CoreOfferings';
 // import Services from '@/components/Services';
 
 const page = () => {
   return (
     <div>
       <Navbar />
-      {/* <Services /> */}
+      <CoreOfferings />
       <Footer />
     </div>
   );

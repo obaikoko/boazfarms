@@ -14,8 +14,9 @@ const Navbar = () => {
       <div className='max-w-7xl mx-auto flex items-center justify-between'>
         {/* Logo */}
         <div className='text-2xl font-bold w-[150px] '>
-          <img src='/images/logo-transparent.png' alt='' />
-          {/* <Link href='/'>Boaz Farms</Link> */}
+          <Link href='/'>
+            <img src='/images/logo-transparent.png' alt='' />
+          </Link>
         </div>
 
         {/* Hamburger Icon */}

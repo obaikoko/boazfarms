@@ -33,7 +33,7 @@ const HeroSection = () => {
           {/* Right-aligned Image */}
           <div className='md:w-1/2 mt-8 md:mt-0'>
             <img
-              src='/images/agripreneurs.jpg' // Provide the correct image path
+              src='/images/hero.webp' // Provide the correct image path
               alt='Farm'
               className='rounded-lg shadow-lg mx-auto md:ml-auto'
             />
