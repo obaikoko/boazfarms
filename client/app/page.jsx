@@ -28,11 +28,12 @@ const HomePage = () => {
               A Landmark Visit to Boaz Farm
             </h2>
             <p className='text-lg text-gray-700 mt-4 leading-relaxed'>
-              Boaz Farm had the honor of hosting the{' '}
+              Boaz Farm had the honor of hosting{' '}
+              <span className='font-semibold'>Hon. Idi Mukhtar Maiha</span>, the{' '}
               <span className='font-semibold'>
                 Commissioner of Agriculture, Cross River State
               </span>
-              , and the{' '}
+              , alongside the{' '}
               <span className='font-semibold'>
                 State Coordinator for Livestock Farming
               </span>
