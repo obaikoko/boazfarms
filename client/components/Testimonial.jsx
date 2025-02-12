@@ -1,20 +1,21 @@
+
 import React from 'react';
 
 const Testimonial = () => {
   const testimonials = [
     {
-      name: 'Effiong Eyo',
-      image: '/images/customer1.jpg', // Replace with your image path
+      name: 'John',
+      image: '/images/custome.jpg', // Replace with your image path
       text: 'Boaz Farm provides the freshest and most delicious produce. I’ve never tasted anything better!',
     },
     {
       name: 'Jane Smith',
-      image: '/images/customer2.jpg', // Replace with your image path
+      image: '/images/custome2.jpg', // Replace with your image path
       text: 'Their organic farming practices make me feel good about what I’m eating and feeding my family.',
     },
     {
       name: 'Michael Johnson',
-      image: '/images/customer1.jpg', // Replace with your image path
+      image: '/images/custom1.jpg', // Replace with your image path
       text: 'Amazing service and great quality products! Boaz Farm has exceeded my expectations.',
     },
   ];

@@ -32,21 +32,23 @@ const Contact = () => {
               <FaMapMarkerAlt className='text-green-600 text-3xl' />
               <div>
                 <h3 className='text-lg font-semibold'>Our Location</h3>
-                <p className='text-gray-600'>123 Farm Lane, Calabar, Nigeria</p>
+                <p className='text-gray-600'>
+                  Edundun Road, Calabar Municipality Nigeria
+                </p>
               </div>
             </div>
             <div className='flex items-center gap-4'>
               <FaPhoneAlt className='text-green-600 text-3xl' />
               <div>
                 <h3 className='text-lg font-semibold'>Call Us</h3>
-                <p className='text-gray-600'>+234 812 345 6789</p>
+                <p className='text-gray-600'>(+234) 8146 797 467</p>
               </div>
             </div>
             <div className='flex items-center gap-4'>
               <FaEnvelope className='text-green-600 text-3xl' />
               <div>
                 <h3 className='text-lg font-semibold'>Email Us</h3>
-                <p className='text-gray-600'>info@boazfarms.com</p>
+                <p className='text-gray-600'>info@boazfarms.org</p>
               </div>
             </div>
           </div>

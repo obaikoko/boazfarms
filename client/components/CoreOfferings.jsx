@@ -36,7 +36,7 @@ const CoreOfferings = () => {
       title: 'Developing Agripreneurs',
       description:
         'Empowering individuals to become successful agripreneurs and drive agricultural innovation.',
-      image: '/images/agripreneurs.jpg', // Replace with your image path
+      image: '/images/visit5.jpg', // Replace with your image path
     },
   ];
 

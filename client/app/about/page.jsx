@@ -1,5 +1,4 @@
 import Certification from '@/components/Certification';
-import CompanyStory from '@/components/CompanyStory';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import Mission from '@/components/Mission';
@@ -13,7 +12,6 @@ export default function AboutUs() {
       <section className='bg-white'>
         <div className=''>
           <Mission />
-          {/* <CompanyStory /> */}
           <TeamSection />
           <Certification />
           <Contact />

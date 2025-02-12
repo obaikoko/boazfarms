@@ -3,7 +3,7 @@ import React from 'react';
 const TeamSection = () => {
   const teamMembers = [
     {
-      name: 'Hon. John Eshian Ewa',
+      name: 'Mr. John Eshian Ewa',
       title: 'Founder & CEO',
       image: '/images/ceo.jpg',
     },

@@ -38,13 +38,19 @@ const Footer = () => {
                   About Us
                 </Link>
               </li>
+
+              <li>
+                <Link href='/services' className='hover:underline'>
+                 Services
+                </Link>
+              </li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
             <h4 className='text-lg font-bold mb-4'>Contact Us</h4>
-            <p className='mb-2'>Email: support@boazfarms.com</p>
+            <p className='mb-2'>Email: support@boazfarms.org</p>
             <p>Phone: (+234) 8146 797 467</p>
             <div className='flex space-x-4 mt-4'>
               <Link
