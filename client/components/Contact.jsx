@@ -48,7 +48,7 @@ const Contact = () => {
               <FaEnvelope className='text-green-600 text-3xl' />
               <div>
                 <h3 className='text-lg font-semibold'>Email Us</h3>
-                <p className='text-gray-600'>info@boazfarms.org</p>
+                <p className='text-gray-600'>boazfarmsglobal@gmail.com</p>
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@ const Contact = () => {
                 Call Us Now
               </a>
               <a
-                href='mailto:info@boazfarms.com'
+                href='mailto:boazfarmsglobal@gmail.com'
                 className='block bg-white border border-green-600 text-green-600 font-semibold text-center py-3 rounded-lg hover:bg-green-700 hover:text-white transition-colors'
               >
                 Email Us
