@@ -38,6 +38,24 @@ const CoreOfferings = () => {
         'Empowering individuals to become successful agripreneurs and drive agricultural innovation.',
       image: '/images/visit5.jpg', // Replace with your image path
     },
+    {
+      title: 'Poultry Farming Success',
+      description:
+        'Learn the best practices for raising healthy poultry birds and maximizing egg production.',
+      image: '/images/poultry.jpg', // Replace with your image path
+    },
+    {
+      title: 'Fresh Farm Eggs',
+      description:
+        'Providing high-quality, farm-fresh eggs packed with nutrition for a healthier lifestyle.',
+      image: '/images/eggs.jpg', // Replace with your image path
+    },
+    {
+      title: 'Profitable Fish Farming',
+      description:
+        'Discover innovative techniques to cultivate and manage fish farms for optimal yield.',
+      image: '/images/fishes.jpg', // Replace with your image path
+    },
   ];
 
   return (
