@@ -13,9 +13,14 @@ const TeamSection = () => {
       image: '/images/operation-manager.jpg',
     },
     {
-      name: 'Dr. Amstrong-John Adebare',
+      name: 'Dr. DANIEL',
       title: 'Farm Vertinary Doctor',
-      image: '/images/vetinary-doctor.jpg',
+      image: '/images/vetDoc.jpg',
+    },
+    {
+      name: 'Miss. Onyi Ola Ngwu',
+      title: 'Farm Accountant',
+      image: '/images/FarmAccountant.jpg',
     },
     {
       name: 'Mr. Igelle Felix Ugbem',

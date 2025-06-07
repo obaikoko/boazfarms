@@ -8,7 +8,7 @@ const HeroSection = () => {
       <section
         className='relative bg-cover bg-center h-screen flex items-center'
         style={{
-          backgroundImage: "url('/images/background.jpg')",
+          backgroundImage: "url('/images/bg.jpg')",
         }}
       >
         {/* Overlay for better contrast */}
@@ -16,7 +16,7 @@ const HeroSection = () => {
 
         <div className='container mx-auto px-4 z-10 flex flex-col md:flex-row items-center'>
           {/* Left-aligned Text */}
-          <div className='text-white md:w-1/2 text-center md:text-left mr-[10px]'>
+          <div className='text-gray-300 md:w-1/2 text-center md:text-left mr-[10px]'>
             <h1 className='text-4xl md:text-6xl font-bold mb-4'>
               Welcome to Boaz Farms
             </h1>
@@ -25,19 +25,19 @@ const HeroSection = () => {
               produce, sustainable practices, and a touch of nature at its
               finest.
             </p>
-            <button className='px-6 py-3 bg-green-600 text-white font-semibold rounded hover:bg-green-700'>
+            <button className='px-6 py-3 bg-green-700 text-white font-semibold rounded hover:bg-green-800'>
               Learn More
             </button>
           </div>
 
           {/* Right-aligned Image */}
-          <div className='md:w-1/2 mt-8 md:mt-0'>
+          {/* <div className='md:w-1/2 mt-8 md:mt-0'>
             <img
               src='/images/hero.webp' // Provide the correct image path
               alt='Farm'
               className='rounded-lg shadow-lg mx-auto md:ml-auto'
             />
-          </div>
+          </div> */}
         </div>
       </section>
 
