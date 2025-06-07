@@ -48,7 +48,7 @@ const Contact = () => {
               <FaEnvelope className='text-green-600 text-3xl' />
               <div>
                 <h3 className='text-lg font-semibold'>Email Us</h3>
-                <p className='text-gray-600'>boazfarmsglobal@gmail.com</p>
+                <p className='text-gray-600'>boazpartners@gmail.com</p>
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ const Contact = () => {
             </p>
             <div className='space-y-4'>
               <a
-                href='tel:+2348123456789'
+                href='tel:+23486291219'
                 className='block bg-green-600 text-white font-semibold text-center py-3 rounded-lg hover:bg-green-700 transition-colors'
               >
                 Call Us Now
