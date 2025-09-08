@@ -68,6 +68,7 @@ const Navbar = () => {
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 + 0.3 }}
+                className='mx-3'
               >
                 <Link
                   href={item.href}

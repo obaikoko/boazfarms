@@ -32,7 +32,7 @@ const Footer = () => {
 
   const socialLinks = [
     { icon: FaFacebook, href: 'https://facebook.com/boazfarms', label: 'Facebook' },
-    { icon: FaWhatsapp, href: 'https://wa.me/2348146797467', label: 'WhatsApp' },
+    { icon: FaWhatsapp, href: 'https://wa.me/2349038687828', label: 'WhatsApp' },
     { icon: FaInstagram, href: 'https://instagram.com/boazfarms', label: 'Instagram' },
     { icon: FaLinkedin, href: 'https://linkedin.com/company/boazfarms', label: 'LinkedIn' },
     { icon: FaTwitter, href: 'https://twitter.com/boazfarms', label: 'Twitter' },
@@ -79,7 +79,7 @@ const Footer = () => {
               </div>
               <div className='flex items-center gap-3 text-green-100'>
                 <FaPhoneAlt className='text-green-400 flex-shrink-0' />
-                <span className='text-sm'>(+234) 8146 797 467</span>
+                <span className='text-sm'>(+234) 9038 687 828</span>
               </div>
               <div className='flex items-center gap-3 text-green-100'>
                 <FaEnvelope className='text-green-400 flex-shrink-0' />
@@ -181,7 +181,7 @@ const Footer = () => {
               <p className='text-sm text-green-100 mb-3'>
                 Get the latest news about our farming innovations.
               </p>
-              <div className='flex gap-2'>
+              <div className='flex  flex-col gap-2'>
                 <input
                   type='email'
                   placeholder='Your email'
