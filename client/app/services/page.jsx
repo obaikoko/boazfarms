@@ -5,7 +5,7 @@ import CoreOfferings from '@/components/CoreOfferings';
 
 const page = () => {
   return (
-    <div>
+    <div className='pt-20'>
       <Navbar />
       <CoreOfferings />
       <Footer />

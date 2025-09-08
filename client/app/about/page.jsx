@@ -9,7 +9,7 @@ export default function AboutUs() {
   return (
     <>
       <Navbar />
-      <section className='bg-white'>
+      <section className='bg-white pt-20'>
         <div className=''>
           <Mission />
           <TeamSection />
